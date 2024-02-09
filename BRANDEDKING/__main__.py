@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await BRANDED.start()
     try:
-        await BRANDED.stream_call("https://graph.org/file/ec8a35dd5f1ef90947167.mp4")
+        await BRANDED.stream_call("https://te.legra.ph/file/ea823420b677711a12271.mp4")
     except NoActiveGroupCall:
         LOGGER("BRANDEDKING").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
